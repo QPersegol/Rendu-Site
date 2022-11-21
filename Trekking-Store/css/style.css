@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: white;
+}
+
+.homePage
+{
+    height: 100vh;
+    background-image: url("../img/paysage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar
+{
+    height: 10vh;
+}
+
+.punchline
+{
+    color: white;
+    height: 90vh;
+}
+
+.titlePunchline
+{
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+.underPunchline
+{
+    display: flex;
+    width: 50%;
+    text-align: center;
+}
+
+.logo
+{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.sectionSelectCaracteres
+{
+    background-color: #dad8d8;
+}
+
+.selectCheckboxCriteres
+{
+    padding: 2em;
+}
+
+.inputCheckbox
+{
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.ligneSepaGrey
+{
+    width: 90%;
+    height: 3px;
+    background-color: #dad8d8;
+}
+
+.btnStore
+{
+    color: white;
+    padding: 1em 2em;
+    background-color: #a49774;
+}
+
+.store
+{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.produit
+{
+    width: 350px;
+    height: auto;
+    background-color: #dad8d8;
+}
+
+.couleurShirtM
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.shirtM
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.colorBrown
+{
+    color: #a49774;
+}
+
+.aboutUs
+{
+    height: 50vh;
+    background-color: #a49774;
+}
+
+.boxAboutUs
+{
+    text-align: center;
+    padding: 3em;
+    width: 50%;
+    border: 2px solid #8d8061;
+}
+
+.spanAboutUs
+{
+    top: calc(0% - 28px);
+    left: calc(50% - 57px);
+    color: #8d8061;
+    position: absolute;
+    background-color: #a49774;
+    padding: 1em;
+}
+
+.paraAboutUs
+{
+    color: #424242;
+}
+
+.twitter
+{
+    background-color: #525152;
+}
+
+.twitterIcon
+{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 3em;
+    color: #424242;
+}
+
+.footer
+{
+    background-color: #424242;
+    height: 40vh;
+}
+
+.paraFooter
+{
+    width: 50%;
+}
