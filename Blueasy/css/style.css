@@ -1,0 +1,349 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ble{
+    height: 100vh;
+    background-image: url('../images/HERO.jpg');
+    padding: 0;
+}
+
+.navigation{
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.441);
+}
+.boitePunchline{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.elementsNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    font-weight: bolder;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.lien{
+    margin: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bolder;
+}
+.bordureBleue{
+    border: solid 4px #4bcaff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.eBleu{
+    color: aqua;
+}
+.punchline{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.441);
+    font-size: 3rem;
+    padding:4px;
+    margin-top: 4px;
+}
+
+.container-service {
+    padding: 100px;
+    background-color: #4bcaff;
+    height: 85vh;
+}
+
+.serviceText {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 120px;
+    margin-left: 35px;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.cards {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: 1.6em;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.frameTitle {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.coffee {
+    height: 500px;
+    width: 350px;
+}
+
+.instant{
+    height: 500px;
+    width: 350px;
+}
+
+.serious{
+    height: 500px;
+    width: 350px;
+}
+
+.frame{
+    height: 500px;
+    width: 350px;
+}
+
+.container-portfolio {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.portfolio {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.lien-portfolio {
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bolder;
+    color: black;
+    margin-right: 50px;
+}
+
+.elementsPortfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lien-portfolio-all{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin-right: 100px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 4px;
+    color: black;
+}
+
+.liens-portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.img1
+{
+    background-image: url("../images/portfolio/1.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img2
+{
+    background-image: url("../images/portfolio/2.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3
+{
+    background-image: url("../images/portfolio/3.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4
+{
+    background-image: url("../images/portfolio/4.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img5
+{
+    background-image: url("../images/portfolio/5.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img6
+{
+    background-image: url("../images/portfolio/6.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img7
+{
+    background-image: url("../images/portfolio/7.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img8
+{
+    background-image: url("../images/portfolio/8.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.containerImg
+{
+    height: 150px;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+.imgArea
+{
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.justDefaultSection
+{
+    background-color: #505d65;
+}
+
+.container-justDefaultSection
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container50
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.container-twitter
+{
+    color: white;
+    background-color: #4ac3f6;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.navTwitter
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.logoTwitter
+{
+    height: 40px;
+    width: 40px;
+    background-image: url("images/twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.containerJoe
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #89add0;
+}
+
+.logoVirgule
+{
+    height: 40px;
+    width: 40px;
+    background-image: url("images/guillemets.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container-contact
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+    background-color: #89add0;
+}
+
+.inputInfo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.paraInfoContact
+{
+    display: flex;
+}
+
+input
+{
+    background-color: #89add0;
+    border-radius: 10px;
+}
+
+#msg
+{
+    height: 10vh;
+}
+
+.footer
+{
+    color: white;
+    height: 10vh;
+    background-color: #3f4f5a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border: solid 2px gray;
+    color: white;
+    font-size: large;
+    border-radius: 0px;
+}
